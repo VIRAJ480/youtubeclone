@@ -123,6 +123,17 @@ padding: 20px;
  cursor: pointer;
 }
 
+ .dots > span{
+    visibility: collapse;
+}
+
+.dots:hover>span{
+    visibility: visible;
+    position: relative;
+    top: 45px;
+    bottom: 10px;
+} 
+
 .signin
 {
     border: 1px solid gray;
@@ -137,7 +148,7 @@ cursor: pointer;
 }
 .signin:hover
 {
-background-color:rgba(186, 186, 255, 0.956);
+background-color: rgb(198,228,240);
 }
 .right
 {
@@ -655,11 +666,273 @@ width: 30%;
     margin: 0%;
     font-size: 16px;
     color: rgb(135, 135, 135);
+    cursor: pointer;
   
 }
+
 .sub{
     /* border: 1px solid blue; */
     padding-left: 43px;
     padding-right: 50px;
 }
+
+.home:hover{
+    color: black;
+}
+
+
+ 
+.slide{
+/* border: 1px solid blue; */
+margin-left: 210px;
+display: flex;
+}
+
+
+.all{
+/* border: 2px solid blue; */
+padding: 6px;
+margin: 8px;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+color: white;
+}
+.music{
+    /* border: 2px solid blue; */
+    padding: 6px;
+margin: 8px;
+border-radius: 10px;
+background-color: rgb(236,235,235);
+cursor: pointer;
+
+    }
+    .slide >:hover.music{
+        background-color: rgb(212, 204, 204);
+    }
+
+    .live{
+        /* border: 2px solid blue; */
+        padding: 6px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: rgb(246, 245, 245);
+    cursor: pointer;
+        }
+
+        .slide >:hover.live{
+            background-color: rgb(212, 204, 204);
+           }
+
+
+           .Tseries{
+            /* border: 2px solid blue; */
+            padding: 6px;
+        margin: 8px;
+        border-radius: 10px;
+        background-color: rgb(246, 245, 245);
+        cursor: pointer;
+            }
+            
+            .slide >:hover.Tseries{
+                background-color: rgb(212, 204, 204);
+               }
+
+               .filmi{
+                /* border: 2px solid blue; */
+                padding: 6px;
+            margin: 8px;
+            border-radius: 10px;
+            background-color: rgb(246, 245, 245);
+            cursor: pointer;
+                }
+                
+                .slide >:hover.filmi{
+                    background-color: rgb(212, 204, 204);
+                   }
+
+                   .streetfood{
+                    /* border: 2px solid blue; */
+                    padding: 6px;
+                margin: 8px;
+                border-radius: 10px;
+                background-color: rgb(246, 245, 245);
+                cursor: pointer;
+                    }
+                    
+                    .slide >:hover.streetfood{
+                        background-color: rgb(212, 204, 204);
+                       }
+
+                       .indianpm{
+                        /* border: 2px solid blue; */
+                        padding: 6px;
+                    margin: 8px;
+                    border-radius: 10px;
+                    background-color: rgb(246, 245, 245);
+                    cursor: pointer;
+                        }
+                        
+                        .slide >:hover.indianpm{
+                            background-color: rgb(212, 204, 204);
+                           }
+
+                           .tourist_attractions{
+                            /* border: 2px solid blue; */
+                            padding: 6px;
+                        margin: 8px;
+                        border-radius: 10px;
+                        background-color: rgb(246, 245, 245);
+                        cursor: pointer;
+                            }
+                            
+                            .slide >:hover.tourist_attractions{
+                                background-color: rgb(212, 204, 204);
+                               }
+
+                               .scene{
+                                /* border: 2px solid blue; */
+                                padding: 6px;
+                            margin: 8px;
+                            border-radius: 10px;
+                            background-color: rgb(246, 245, 245);
+                            cursor: pointer;
+                                }
+                                
+                                .slide >:hover.scene{
+                                    background-color: rgb(212, 204, 204);
+                                   }
+
+                                   .birds{
+                                    /* border: 2px solid blue; */
+                                    padding: 6px;
+                                margin: 8px;
+                                border-radius: 10px;
+                                background-color: rgb(246, 245, 245);
+                                cursor: pointer;
+                                    }
+                                    
+                                    .slide >:hover.birds{
+                                        background-color: rgb(212, 204, 204);
+                                       }
+
+                                       .Deep_house{
+                                        /* border: 2px solid blue; */
+                                        padding: 6px;
+                                    margin: 8px;
+                                    border-radius: 10px;
+                                    background-color: rgb(246, 245, 245);
+                                    cursor: pointer;
+                                        }
+                                        
+                                        .slide >:hover.Deep_house{
+                                            background-color: rgb(212, 204, 204);
+                                           }
+
+                                          .comedy {
+                                            /* border: 2px solid blue; */
+                                            padding: 6px;
+                                        margin: 8px;
+                                        border-radius: 10px;
+                                        background-color: rgb(246, 245, 245);
+                                        cursor: pointer;
+                                            }
+                                            
+                                            .slide >:hover.comedy{
+                                                background-color: rgb(212, 204, 204);
+                                               }
+
+                                               .comedy{
+                                                /* border: 2px solid blue; */
+                                                padding: 6px;
+                                            margin: 8px;
+                                            border-radius: 10px;
+                                            background-color: rgb(246, 245, 245);
+                                            cursor: pointer;
+                                                }
+                                                
+                                                .slide >:hover.comedy{
+                                                    background-color: rgb(212, 204, 204);
+                                                   }
+
+
+
+
+
+                                                   .recentlyuploaded{
+                                                    /* border: 2px solid blue; */
+                                                    padding: 6px;
+                                                margin: 8px;
+                                                border-radius: 10px;
+                                                background-color: rgb(246, 245, 245);
+                                                cursor: pointer;
+                                                    }
+                                                    
+                                                    .slide >:hover.recentlyuploaded{
+                                                        background-color: rgb(212, 204, 204);
+                                                       }
+
+
+/* 
+
+                                                       .musical{
+                                                        border: 2px solid blue;
+                                                        padding: 6px;
+                                                    margin: 8px;
+                                                    border-radius: 10px;
+                                                    background-color: rgb(246, 245, 245);
+                                                    cursor: pointer;
+                                                        }
+                                                        
+                                                        .slide >:hover.musical{
+                                                            background-color: rgb(212, 204, 204);
+                                                           }
+
+
+                                                           .bhajan{
+                                                            border: 2px solid blue;
+                                                            padding: 6px;
+                                                        margin: 8px;
+                                                        border-radius: 10px;
+                                                        background-color: rgb(246, 245, 245);
+                                                        cursor: pointer;
+                                                            }
+                                                            
+                                                            .slide >:hover.bhajan{
+                                                                background-color: rgb(212, 204, 204);
+                                                               }
+    
+    
+                                                               .sachinjigar{
+                                                                border: 2px solid blue;
+                                                                padding: 6px;
+                                                            margin: 8px;
+                                                            border-radius: 10px;
+                                                            background-color: rgb(246, 245, 245);
+                                                            cursor: pointer;
+                                                                }
+                                                                
+                                                                .slide >:hover.sachinjigar{
+                                                                    background-color: rgb(212, 204, 204);
+                                                                   }
+        
+                                                                   .mixes{
+                                                                    border: 2px solid blue;
+                                                                    padding: 6px;
+                                                                margin: 8px;
+                                                                border-radius: 10px;
+                                                                background-color: rgb(246, 245, 245);
+                                                                cursor: pointer;
+                                                                    }
+                                                                    
+                                                                    .slide >:hover.mixes{
+                                                                        background-color: rgb(212, 204, 204);
+                                                                       }
+             */
+
+
+
+
+
+
+
 
